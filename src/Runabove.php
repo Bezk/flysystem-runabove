@@ -7,7 +7,7 @@ use OpenCloud\Common\Exceptions\CredentialError;
 
 class Runabove extends OpenStack
 {
-    const IDENTITY_ENDPOINT = 'https://auth.runabove.io/v2.0/';
+    const IDENTITY_ENDPOINT = 'https://auth.files.nl01.cloud.servers.com:5000/v2.0/';
 
     /**
      * Constant containing name of the region for European datacenter (currently located in Strasbourg, France)
